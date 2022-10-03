@@ -1,0 +1,13 @@
+.Letras {
+  display: flex;
+  font-size: 100%;
+  margin: 0 5px;
+}
+
+.Letras:hover {
+  cursor: pointer;
+}
+
+.clickeado {
+  color: red;
+}
