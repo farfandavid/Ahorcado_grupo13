@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    align-self:flex-end;
+    background-color:  #152036;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+ 
+    width: 100%;
+    
+  }

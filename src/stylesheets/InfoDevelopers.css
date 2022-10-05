@@ -1,0 +1,31 @@
+.Desarrolladores{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  padding-bottom: 2em;
+  
+
+}
+.info{
+    display: flex;
+    width: 60%;
+    color: white;
+    margin: 5px;
+    background-color: #121c30;
+    padding: 10px;
+    
+}
+.imagen {
+    width: 30%;
+    height: 40%;
+    margin: 0 10px;
+  }
+.propiedades{
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+.Titulo{
+    text-align: center;
+    
+}
