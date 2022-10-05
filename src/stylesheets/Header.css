@@ -1,0 +1,27 @@
+.titulo{
+    
+    border-radius: 15px;
+    text-align: start;
+    font-style: oblique;
+    font-size: 200%;
+    color: #fafafa;
+    margin: 2%;
+}
+a{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 2%;
+}
+.menu{
+    display: inline;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    background-color: #152036;
+    color: #fafafa;
+        
+}
