@@ -1,6 +1,4 @@
 [
-    
-
     {
         "img":"../images/Desarrollador1.jfif",
         "nombre": "David Farfan",
@@ -8,7 +6,6 @@
         "intereses": "Crecer en la industria del software",
         "GitHub": "https://github.com/farfandavid"
     },
-
     {
         "img":"../images/Desarrollador.png",
         "nombre": "Martin Amante",
@@ -16,7 +13,4 @@
         "intereses": "Aprender varios lenguajes de programacion y trabajar en una empresa de videojuegos",
         "GitHub": "https://github.com/MartinAmante"
     }
-
-
-
 ]
