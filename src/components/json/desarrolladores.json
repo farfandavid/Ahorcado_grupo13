@@ -1,18 +1,20 @@
 [
+    
+
     {
         "img":"../images/circulo.png",
-        "nombre": "Martin Amante",
+        "nombre": "David Farfan",
         "Edad": "19",
         "intereses": "Jugar",
         "GitHub": "https://github.com/MartinAmante?tab=repositories"
     },
 
     {
-        "img":"../images/circulo.png",
-        "nombre": "David Farfan",
-        "Edad": "--",
-        "intereses": "---",
-        "GitHub": "-------"
+        "img":"../images/Desarrollador1.jfif",
+        "nombre": "Martin Amante",
+        "Edad": "19",
+        "intereses": "Jugar",
+        "GitHub": "https://github.com/MartinAmante?tab=repositories"
     }
 
 
