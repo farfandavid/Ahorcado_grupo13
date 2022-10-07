@@ -80,7 +80,7 @@ function AhorcadoPage() {
   }
 
   return (
-    <div>
+    <div className="Ahorcado">
       <div>
         <img src={`images/ahorcado/img${imagenAhorcado}.png`.trimEnd()} alt="Imagen Ahorcado" />
         <div className="Alfabeto">
@@ -97,13 +97,13 @@ function AhorcadoPage() {
       <Modal estado={ganaste} cambiarEstado={setModalGanaste} titulo="" mostrarHeader={true}>
         <Contenido>
           <h1>{`Ganaste!!!`}</h1>
-          <button onClick={refreshPage} >Reiniciar</button>
+          <button className='boton' onClick={refreshPage} >Reiniciar</button>
         </Contenido>
       </Modal>
       <Modal estado={perdiste} cambiarEstado={setModalPerdiste} titulo="" mostrarHeader={true}>
         <Contenido>
           <h1>{`Perdiste!!!`}</h1>
-          <button onClick={refreshPage} >Reiniciar</button>
+          <button className='boton' onClick={refreshPage} >Reiniciar</button>
           <h2>Respuesta: </h2>
           <div className="Alfabeto">
             {palabra[0].map((item, index) => (
