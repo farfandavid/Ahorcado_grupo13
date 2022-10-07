@@ -1,5 +1,6 @@
-.boton{
-    margin: 10%;
+.boton {
+    color: white;
+    margin: 2%;
     text-decoration: none;
     font-size: 25px;
     margin-left: 900px;
@@ -9,17 +10,19 @@
     border-radius: 10px;
     transition: 0.2;
 }
-.boton:hover{
-    background:  rgb(199, 24, 97);
-    box-shadow: 0 0 10px  rgb(199, 24, 97), 0 0 40px  rgb(199, 24, 97), 0 0 80px  rgb(199, 24, 97);
+
+.boton:hover {
+    background: rgb(199, 24, 97);
+    box-shadow: 0 0 10px rgb(199, 24, 97), 0 0 40px rgb(199, 24, 97), 0 0 80px rgb(199, 24, 97);
 }
-.MenuEstilo{
+
+.MenuEstilo {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    margin-top: 12%;
     color: rgb(255, 255, 255);
-    text-shadow: 0 0 5px rgb(199, 24, 97),0 0 15px rgb(199, 24, 97),0 0 30px rgb(199, 24, 97),0 0 5px rgb(199, 24, 97);
-   
-}
+    text-shadow: 0 0 5px rgb(199, 24, 97), 0 0 15px rgb(199, 24, 97), 0 0 30px rgb(199, 24, 97), 0 0 5px rgb(199, 24, 97);
 
+}

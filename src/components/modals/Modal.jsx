@@ -53,10 +53,11 @@ const Overlay = styled.div`
 const ContenedorModal = styled.div`
 	width: 500px;
 	min-height: 100px;
-	background: #fff;
+	background: #151320;
 	position: relative;
 	border-radius: 5px;
-	box-shadow: rgba(100,100,111, 0.2) 0px 7px 29px 0px;
+	border: 6px solid rgb(187, 14, 100);
+	box-shadow: inset 0 0 10px rgb(233, 42, 121),  0 0 20px rgb(233, 42, 121);
 	padding: ${props => props.padding ? props.padding : '20px'};
 `;
 
@@ -80,14 +81,13 @@ const BotonCerrar = styled.button`
 	right: 20px;
 	width: 30px;
 	height: 30px;
-	border: none;
-	background: none;
 	cursor: pointer;
 	transition: .3s ease all;
 	border-radius: 5px;
 	color: #1766DC;
 	&:hover {
-		background: #f2f2f2;
+		background: rgb(199, 24, 97);
+    box-shadow: 0 0 10px rgb(199, 24, 97), 0 0 40px rgb(199, 24, 97), 0 0 80px rgb(199, 24, 97);
 	}
 	svg {
 		width: 100%;
