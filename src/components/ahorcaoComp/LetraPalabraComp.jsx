@@ -11,7 +11,7 @@ function LetraPalabraComp({ children, isDescubierto }) {
   return (
     <div
       className={`Letras ${isDescubierto ? '' : 'clickeado'}`.trimEnd()}>
-      {children}
+      <span className={`letra ${isDescubierto ? 'hide' : ''}`.trimEnd()}>{children}</span><span className={`letra ${isDescubierto ? '' : 'hide'}`.trimEnd()}>_</span>
     </div>
   );
 }

@@ -11,3 +11,15 @@
 .clickeado {
   color: red;
 }
+
+/*Letra Palabrea Component*/
+
+.letra {
+  text-transform: uppercase;
+  opacity: 1;
+  transition: opacity 1s;
+}
+
+.letra.hide {
+  opacity: 0;
+}
