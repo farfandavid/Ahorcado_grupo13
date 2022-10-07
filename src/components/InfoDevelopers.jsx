@@ -6,10 +6,10 @@ function InfoDevelopers(props) {
             <div className='info'>
                 <div className='propiedades'>
                 <img className='imagen' src={props.img} />
-                    <h4>Nombre:{props.nombre}</h4>
-                    <p>Edad:{props.Edad}</p>
-                    <p>Intereses:{props.intereses}</p>
-                    <p>GitHub:{props.GitHub}</p>
+                    <h4>{props.nombre}</h4>
+                    <p>Edad: {props.Edad}</p>
+                    <p>Intereses: {props.intereses}</p>
+                    <p>GitHub: {props.GitHub}</p>
                 </div>
             </div>
         </>

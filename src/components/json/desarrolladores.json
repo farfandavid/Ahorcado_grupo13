@@ -2,19 +2,19 @@
     
 
     {
-        "img":"../images/circulo.png",
+        "img":"../images/Desarrollador1.jfif",
         "nombre": "David Farfan",
-        "Edad": "19",
-        "intereses": "Jugar",
-        "GitHub": "https://github.com/MartinAmante?tab=repositories"
+        "Edad": "25 años",
+        "intereses": "Crecer en la industria del software",
+        "GitHub": "https://github.com/farfandavid"
     },
 
     {
-        "img":"../images/Desarrollador1.jfif",
+        "img":"../images/Desarrollador.png",
         "nombre": "Martin Amante",
-        "Edad": "19",
-        "intereses": "Jugar",
-        "GitHub": "https://github.com/MartinAmante?tab=repositories"
+        "Edad": "19 años",
+        "intereses": "Aprender varios lenguajes de programacion y trabajar en una empresa de videojuegos",
+        "GitHub": "https://github.com/MartinAmante"
     }
 
 
